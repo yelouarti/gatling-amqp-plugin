@@ -1,4 +1,4 @@
-ThisBuild / organization := "de.db.susinkoff"
+ThisBuild / organization := "de.db.sus"
 ThisBuild / scalaVersion := "2.12.12"
 
 ThisBuild / publishMavenStyle := true
