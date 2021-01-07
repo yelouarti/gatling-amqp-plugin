@@ -6,7 +6,7 @@ enablePlugins(GitVersioning)
 lazy val root = (project in file("."))
   .settings(
     name:= "gatling-amqp-plugin",
-    version:= "0.0.1-SNAPSHOT",
+    version:= "0.0.2-SNAPSHOT",
     libraryDependencies ++= gatling,
     libraryDependencies ++= Seq( rabbitmq, commonsPool),
     scalacOptions ++= Seq(
