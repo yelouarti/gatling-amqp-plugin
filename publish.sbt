@@ -12,8 +12,8 @@ ThisBuild / publishTo := Some(
 
 ThisBuild / scmInfo := Some(
   ScmInfo(
-    url("https://github.com/TinkoffCreditSystems/gatling-amqp-plugin"),
-    "git@github.com:TinkoffCreditSystems/gatling-amqp-plugin.git"
+    url("https://github.com/yelouarti/gatling-amqp-plugin"), //TODO change to de.db.sus
+    "git@github.com:yelouarti/gatling-amqp-plugin.git" //TODO change to de.db.sus
   )
 )
 ThisBuild / developers := List(
@@ -33,7 +33,7 @@ ThisBuild / developers := List(
 
 ThisBuild / description := "Plugin for support performance testing with AMQP in Gatling(3.4.x)."
 ThisBuild / licenses := List("Apache 2" -> new URL("http://www.apache.org/licenses/LICENSE-2.0.txt"))
-ThisBuild / homepage := Some(url("https://github.com/TinkoffCreditSystems/gatling-amqp-plugin")) //TODO after merge in dbsus
+ThisBuild / homepage := Some(url("https://github.com/yelouarti/gatling-amqp-plugin")) //TODO after merge in dbsus
 
 // Remove all additional repository other than Maven Central from POM
 ThisBuild / pomIncludeRepository := { _ => false }
