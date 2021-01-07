@@ -10,5 +10,5 @@ Plugin is currently available for Scala 2.12.
 You may add plugin as dependency in project with your tests. Write this to your build.sbt: 
 
 ``` scala
-libraryDependencies += "de.db.sus.lib" %% "gatling-amqp-plugin" % <version> % Test
+libraryDependencies += "de.db.sus.test" %% "gatling-amqp-plugin" % <version> % Test
 ```
